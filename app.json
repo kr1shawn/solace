@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Solace",
+    "slug": "solace-ledger",
+    "scheme": "solace",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "statusBar": {
+      "hidden": true,
+      "translucent": true
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#050505"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.solace.ledger"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#050505"
+      },
+      "package": "com.solace.ledger",
+      "permissions": [
+        "INTERNET",
+        "VIBRATE"
+      ]
+    },
+    "plugins": [
+      "expo-font",
+      "expo-sqlite",
+      "@react-native-community/datetimepicker"
+    ]
+  }
+}
