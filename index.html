@@ -6,18 +6,17 @@
     <title>Solace | Official Portal</title>
     <style>
         :root {
-            --theme-green: #5FB39F;
-            --soft-white: #F8FBFB;
-            --text-grey: #667772;
+            --bg-deep-green: #4A7D70; /* 一木风格深蓝绿色背景 */
+            --card-white: #FFFFFF;
+            --accent-green: #5FB39F;
+            --text-color: #5D5D5D;
         }
 
         body {
             font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-            background-color: var(--soft-white);
-            background-image: 
-                radial-gradient(circle at 10% 20%, rgba(95, 179, 159, 0.05) 0%, transparent 20%),
-                url('https://www.transparenttextures.com/patterns/notebook.png'); /* 笔记本纹理背景 */
-            color: var(--text-grey);
+            background-color: var(--bg-deep-green);
+            background-image: radial-gradient(circle at 50% 50%, rgba(255,255,255,0.05) 0%, transparent 70%);
+            color: var(--text-color);
             margin: 0;
             display: flex;
             justify-content: center;
@@ -26,26 +25,24 @@
         }
 
         .container {
-            max-width: 500px;
+            max-width: 480px;
             width: 85%;
-            background: rgba(255, 255, 255, 0.8);
+            background: var(--card-white);
             padding: 50px 40px;
-            border-radius: 30px;
-            box-shadow: 0 10px 30px rgba(95, 179, 159, 0.1);
+            border-radius: 40px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
             text-align: center;
-            border: 1px solid rgba(95, 179, 159, 0.2);
         }
 
-        /* 模拟一支笔在写东西的装饰 */
         .pen-icon {
-            font-size: 40px;
-            margin-bottom: 20px;
+            font-size: 45px;
+            margin-bottom: 15px;
             display: inline-block;
             transform: rotate(-10deg);
         }
 
-        h1 { color: var(--theme-green); font-weight: 300; margin-bottom: 10px; }
-        .tagline { font-size: 0.9em; margin-bottom: 40px; border-bottom: 1px solid #eee; padding-bottom: 20px; }
+        h1 { color: var(--bg-deep-green); font-weight: 400; margin-bottom: 5px; letter-spacing: 1px; }
+        .tagline { font-size: 0.85em; opacity: 0.6; margin-bottom: 40px; }
 
         .nav-grid {
             display: grid;
@@ -54,24 +51,24 @@
         }
 
         .btn {
-            padding: 15px;
-            background: #fff;
-            border: 2px solid var(--theme-green);
-            border-radius: 15px;
+            padding: 18px 10px;
+            background: #F4F8F7;
+            border: none;
+            border-radius: 20px;
             text-decoration: none;
-            color: var(--theme-green);
+            color: var(--bg-deep-green);
             font-size: 0.85em;
-            font-weight: 500;
+            font-weight: 600;
             transition: all 0.3s ease;
         }
 
         .btn:hover {
-            background: var(--theme-green);
+            background: var(--accent-green);
             color: #fff;
-            transform: translateY(-3px);
+            transform: translateY(-2px);
         }
 
-        .footer { margin-top: 40px; font-size: 0.75em; opacity: 0.6; }
+        .footer { margin-top: 40px; font-size: 0.7em; color: #999; }
     </style>
 </head>
 <body>
@@ -79,7 +76,7 @@
     <div class="container">
         <div class="pen-icon">✍️</div>
         <h1>Solace</h1>
-        <p class="tagline">Personal Ledger • Privacy-Focused • Local Storage</p>
+        <p class="tagline">Simply Record, Securely Store.</p>
 
         <div class="nav-grid">
             <a href="LEGAL" class="btn">Legal Declaration</a>
