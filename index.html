@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Solace | Simple & Elegant Ledger</title>
+    <title>Solace | Official Portal</title>
     <style>
         :root {
-            --bg-color: #FAF9F6;
-            --primary-green: #A8C69F;
-            --soft-pink: #D8B4A0;
-            --text-color: #5D5D5D;
+            --theme-green: #5FB39F;
+            --soft-white: #F8FBFB;
+            --text-grey: #667772;
         }
 
         body {
-            font-family: 'Helvetica Neue', Arial, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: var(--soft-white);
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(95, 179, 159, 0.05) 0%, transparent 20%),
+                url('https://www.transparenttextures.com/patterns/notebook.png'); /* 笔记本纹理背景 */
+            color: var(--text-grey);
             margin: 0;
             display: flex;
             justify-content: center;
@@ -25,65 +27,59 @@
 
         .container {
             max-width: 500px;
-            width: 90%;
+            width: 85%;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 50px 40px;
+            border-radius: 30px;
+            box-shadow: 0 10px 30px rgba(95, 179, 159, 0.1);
             text-align: center;
-            padding: 40px;
+            border: 1px solid rgba(95, 179, 159, 0.2);
         }
 
-        .logo-box {
-            margin-bottom: 30px;
+        /* 模拟一支笔在写东西的装饰 */
+        .pen-icon {
+            font-size: 40px;
+            margin-bottom: 20px;
+            display: inline-block;
+            transform: rotate(-10deg);
         }
 
-        .icon {
-            font-size: 50px;
-            margin-bottom: 10px;
-            display: block;
-        }
-
-        h1 { font-weight: 300; letter-spacing: 2px; color: var(--primary-green); }
-
-        .tagline { font-size: 0.9em; opacity: 0.7; margin-bottom: 40px; }
+        h1 { color: var(--theme-green); font-weight: 300; margin-bottom: 10px; }
+        .tagline { font-size: 0.9em; margin-bottom: 40px; border-bottom: 1px solid #eee; padding-bottom: 20px; }
 
         .nav-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 20px;
+            gap: 15px;
         }
 
         .btn {
-            padding: 20px 10px;
+            padding: 15px;
             background: #fff;
-            border: 1px solid #eee;
-            border-radius: 20px;
+            border: 2px solid var(--theme-green);
+            border-radius: 15px;
             text-decoration: none;
-            color: var(--text-color);
+            color: var(--theme-green);
             font-size: 0.85em;
+            font-weight: 500;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
         }
 
         .btn:hover {
-            border-color: var(--primary-green);
-            color: var(--primary-green);
+            background: var(--theme-green);
+            color: #fff;
             transform: translateY(-3px);
-            box-shadow: 0 8px 15px rgba(168, 198, 159, 0.15);
         }
 
-        .footer {
-            margin-top: 50px;
-            font-size: 0.75em;
-            opacity: 0.5;
-        }
+        .footer { margin-top: 40px; font-size: 0.75em; opacity: 0.6; }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <div class="logo-box">
-            <span class="icon">🌱</span>
-            <h1>Solace</h1>
-            <p class="tagline">Simply record your life, one coin at a time.</p>
-        </div>
+        <div class="pen-icon">✍️</div>
+        <h1>Solace</h1>
+        <p class="tagline">Personal Ledger • Privacy-Focused • Local Storage</p>
 
         <div class="nav-grid">
             <a href="LEGAL" class="btn">Legal Declaration</a>
@@ -93,8 +89,8 @@
         </div>
 
         <div class="footer">
-            <p>Solace Personal Ledger © 2026</p>
-            <p>Official Contact: krishawn@foxmail.com</p>
+            <p>© 2026 Solace Dev Team</p>
+            <p>Contact: krishawn@foxmail.com</p>
         </div>
     </div>
 
