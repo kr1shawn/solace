@@ -1,1 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solace | Simple & Elegant Ledger</title>
+    <style>
+        :root {
+            --bg-color: #FAF9F6;
+            --primary-green: #A8C69F;
+            --soft-pink: #D8B4A0;
+            --text-color: #5D5D5D;
+        }
 
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 500px;
+            width: 90%;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .logo-box {
+            margin-bottom: 30px;
+        }
+
+        .icon {
+            font-size: 50px;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        h1 { font-weight: 300; letter-spacing: 2px; color: var(--primary-green); }
+
+        .tagline { font-size: 0.9em; opacity: 0.7; margin-bottom: 40px; }
+
+        .nav-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .btn {
+            padding: 20px 10px;
+            background: #fff;
+            border: 1px solid #eee;
+            border-radius: 20px;
+            text-decoration: none;
+            color: var(--text-color);
+            font-size: 0.85em;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+        }
+
+        .btn:hover {
+            border-color: var(--primary-green);
+            color: var(--primary-green);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 15px rgba(168, 198, 159, 0.15);
+        }
+
+        .footer {
+            margin-top: 50px;
+            font-size: 0.75em;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo-box">
+            <span class="icon">🌱</span>
+            <h1>Solace</h1>
+            <p class="tagline">Simply record your life, one coin at a time.</p>
+        </div>
+
+        <div class="nav-grid">
+            <a href="LEGAL" class="btn">Legal Declaration</a>
+            <a href="TOS" class="btn">Terms of Service</a>
+            <a href="PRIVACY" class="btn">Privacy Policy</a>
+            <a href="EULA" class="btn">User License (EULA)</a>
+        </div>
+
+        <div class="footer">
+            <p>Solace Personal Ledger © 2026</p>
+            <p>Official Contact: [Your Contact Email]</p>
+        </div>
+    </div>
+
+</body>
+</html>
