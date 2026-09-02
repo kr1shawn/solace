@@ -1,5 +1,5 @@
 Legal Compliance & Ownership Declaration (Solace)
-Last Updated: June 13, 2026
+Last Updated: September 2, 2026
 
 1. OWNERSHIP & INTELLECTUAL PROPERTY
 The Solace application, including its localized ledger management systems, advanced financial chart visualizations, custom local SQLite architecture, and professional user interface aesthetics, is the sole and exclusive property of the Solace Development Team. This declaration serves as the official confirmation of ownership and proprietary rights for the application's distribution.
