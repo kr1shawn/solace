@@ -1,5 +1,5 @@
 END USER LICENSE AGREEMENT (EULA)
-Last Updated: June 13, 2026
+Last Updated: September 2, 2026
 
 LICENSE GRANT
 Solace (the "Application") hereby grants you a personal, non-exclusive, non-transferable, and revocable license to use this software on your mobile device strictly in accordance with the terms of this agreement. This license is granted to you, the user, and does not involve the transfer of any ownership rights or the provision of source code.
