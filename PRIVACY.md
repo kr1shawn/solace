@@ -1,5 +1,5 @@
 Solace: Terms of Service & Privacy Policy
-Effective Date: June 13, 2026
+Effective Date: September 2, 2026
 
 DECENTRALIZED & NON-CUSTODIAL ARCHITECTURE
 Solace is a standalone personal finance utility.
