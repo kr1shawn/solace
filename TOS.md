@@ -1,5 +1,5 @@
 Terms of Service for Solace
-Last Updated: June 13, 2026
+Last Updated: September 2, 2026
 
 Welcome to Solace. This document constitutes a legally binding agreement between you ("User") and the developers of Solace. By accessing, downloading, or using the Solace mobile application, you acknowledge that you have read, understood, and agreed to be bound by these Terms of Service.
 
